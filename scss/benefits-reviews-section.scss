@@ -1,0 +1,12 @@
+
+.benefits-reviews-section {
+    position: relative;
+
+    &::before {
+        content: url("/img/decor/strawberries.png");
+        position: absolute;
+        top: 20px;
+        right: 0;
+    }
+}
+

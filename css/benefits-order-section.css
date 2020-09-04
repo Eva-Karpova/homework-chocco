@@ -1,0 +1,9 @@
+.benefits-order-section {
+  position: relative;
+}
+.benefits-order-section::before {
+  content: url("/img/decor/third-leaf.png");
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

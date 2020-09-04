@@ -552,3 +552,17 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.benefits-reviews-section {
+  position: relative;
+}
+
+.benefits-reviews-section {
+  position: relative;
+}
+.benefits-reviews-section::before {
+  content: url("/img/decor/strawberries.png");
+  position: absolute;
+  top: 42px;
+  right: 0;
+}
