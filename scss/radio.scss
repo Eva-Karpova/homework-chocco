@@ -9,17 +9,25 @@
             border-radius: 0;
 
             &:before {
-                background: url("/img/icons/tick.png") center no-repeat;
+                background: url("../img/icons/tick.png") center no-repeat;
             }
         }
     }
 }
 
 .radio__elem {
-    display: none;
-    
+    position: absolute;
 
-    &:checked ~ .radio__visible {
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+    &:checked~.radio__visible {
         &::before {
             display: block;
         }
