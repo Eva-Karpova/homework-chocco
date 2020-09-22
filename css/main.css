@@ -149,6 +149,12 @@ img {
     margin-bottom: 0.9444444444rem;
   }
 }
+@media screen and (max-width: 768px) and (max-width: 375px) {
+  .hero__title-section:before {
+    width: 13.3333333333rem;
+    height: 13.8888888889rem;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .hero__icons-section {
@@ -177,6 +183,12 @@ img {
   text-transform: uppercase;
   margin-bottom: 0.8333333333rem;
 }
+@media screen and (max-width: 375px) {
+  .hero__title-main {
+    font-size: 1.5555555556rem;
+    padding: 0 6%;
+  }
+}
 
 .hero__title-desc {
   font-size: 1.1666666667rem;
@@ -191,6 +203,13 @@ img {
 @media screen and (max-width: 480px) {
   .hero__title-desc {
     padding: 0 16%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hero__title-desc {
+    font-size: 0.8888888889rem;
+    padding: 0 11%;
+    margin-bottom: 0.5555555556rem;
   }
 }
 
@@ -209,8 +228,8 @@ img {
 }
 
 .menu {
-  margin: 0 30px;
-  padding-top: 5px;
+  margin: 0 1.6666666667rem;
+  padding-top: 0.2777777778rem;
 }
 @media screen and (max-width: 768px) {
   .menu {
@@ -227,7 +246,7 @@ img {
 
 .menu__item {
   margin-right: 1.5rem;
-  margin-bottom: 10px;
+  margin-bottom: 0.5555555556rem;
 }
 .menu__item:last-child {
   margin-right: 0;
@@ -352,6 +371,12 @@ img {
 .section__title.section__title--green {
   color: #365a49;
 }
+@media screen and (max-width: 375px) {
+  .section__title {
+    margin-bottom: 0;
+    font-size: 28px;
+  }
+}
 
 .order-section {
   background: url("../img/bg/order.png") no-repeat;
@@ -400,6 +425,11 @@ img {
 .benefits__item:last-child:before {
   display: none;
 }
+@media screen and (max-width: 375px) {
+  .benefits__item {
+    margin-bottom: 0.5555555556rem;
+  }
+}
 
 .benefit {
   text-align: center;
@@ -408,6 +438,7 @@ img {
   .benefit {
     display: flex;
     text-align: left;
+    align-items: center;
   }
 }
 
@@ -441,6 +472,12 @@ img {
     margin-bottom: 0.7777777778rem;
   }
 }
+@media screen and (max-width: 375px) {
+  .benefit__title {
+    margin-bottom: 0.2777777778rem;
+    font-size: 1.1111111111rem;
+  }
+}
 
 .benefit__image {
   margin-bottom: 1.0555555556rem;
@@ -457,14 +494,30 @@ img {
     max-width: 16.1111111111rem;
   }
 }
+@media screen and (max-width: 375px) {
+  .benefit__desc {
+    font-size: 0.7777777778rem;
+  }
+}
 
 .headline {
   text-align: center;
   margin-bottom: 2.7777777778rem;
 }
+@media screen and (max-width: 375px) {
+  .headline {
+    margin-bottom: 0.5555555556rem;
+  }
+}
 
 .headline__title {
   margin-bottom: 1.1111111111rem;
+}
+@media screen and (max-width: 375px) {
+  .headline__title {
+    font-size: 1.5555555556rem;
+    margin-bottom: 0.2777777778rem;
+  }
 }
 
 .headline__subtitle {
@@ -473,6 +526,12 @@ img {
 @media screen and (max-width: 480px) {
   .headline__subtitle {
     padding: 0 2%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .headline__subtitle {
+    padding: 0 2%;
+    font-size: 0.7777777778rem;
   }
 }
 
@@ -516,6 +575,13 @@ img {
   transform: translate(-50%);
   top: -3.6111111111rem;
 }
+@media screen and (max-width: 375px) {
+  .reviews__display {
+    background: none;
+    padding: 7%;
+    margin-bottom: 0.2777777778rem;
+  }
+}
 
 .reviews__display-inner {
   display: flex;
@@ -536,7 +602,12 @@ img {
   .reviews__avatar {
     width: 7.2222222222rem;
     height: 7.2222222222rem;
-    margin-bottom: 35px;
+    margin-bottom: 1.9444444444rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .reviews__avatar {
+    margin-bottom: 0.2777777778rem;
   }
 }
 
@@ -550,12 +621,23 @@ img {
   flex: 1;
   margin-left: 2.2222222222rem;
 }
+@media screen and (max-width: 375px) {
+  .reviews__content {
+    margin-left: 0;
+  }
+}
 
 .reviews__title {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 0.6666666667rem;
   color: #292929;
+}
+@media screen and (max-width: 375px) {
+  .reviews__title {
+    margin-bottom: 0.2777777778rem;
+    font-size: 18px;
+  }
 }
 
 .reviews__text {
@@ -564,7 +646,13 @@ img {
 }
 @media screen and (max-width: 768px) {
   .reviews__text {
-    max-width: 677px;
+    max-width: 37.6111111111rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .reviews__text {
+    font-size: 0.7777777778rem;
+    margin-bottom: 0.5555555556rem;
   }
 }
 
@@ -669,6 +757,11 @@ img {
   border-color: #dee2bd;
   outline: none;
 }
+@media screen and (max-width: 375px) {
+  .form__input {
+    padding: 0 0.2777777778rem;
+  }
+}
 
 .form__controls {
   display: flex;
@@ -691,6 +784,7 @@ img {
   -webkit-user-select: none;
           user-select: none;
   margin-right: 1.2222222222rem;
+  margin-bottom: 1.4444444444rem;
 }
 .radio--checkbox .radio__visible {
   border-radius: 0;
@@ -704,18 +798,17 @@ img {
 }
 
 .radio__visible {
-  width: 1.3888888889rem;
-  height: 1.3888888889rem;
+  width: 1.3333333333rem;
+  height: 1.3333333333rem;
   position: relative;
   border-radius: 50%;
   background: #fff;
-  margin-bottom: 1.4444444444rem;
   margin-right: 0.5555555556rem;
 }
 .radio__visible:before {
   content: "";
-  width: 0.7222222222rem;
-  height: 0.7222222222rem;
+  width: 0.6666666667rem;
+  height: 0.6666666667rem;
   background: #365a49;
   border-radius: 50%;
   position: absolute;
@@ -769,6 +862,11 @@ img {
   top: 1.1111111111rem;
   right: 0;
 }
+@media screen and (max-width: 375px) {
+  .benefits-reviews-section::before {
+    content: none;
+  }
+}
 
 .benefits-order-section {
   position: relative;
@@ -796,12 +894,13 @@ img {
 .hamburger__plank {
   display: block;
   background: #fff;
-  height: 4px;
-  border-radius: 10px;
+  height: 0.2222222222rem;
+  border-radius: 0.5555555556rem;
 }
 
 .footer {
   position: absolute;
+  display: flex;
   bottom: 0;
   left: 0;
   right: 0;
@@ -827,7 +926,7 @@ img {
 }
 @media screen and (max-width: 480px) {
   .contacts {
-    margin-bottom: 10px;
+    margin-bottom: 0.5555555556rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -835,8 +934,38 @@ img {
 }
 
 .map-section {
-  background: url("../img/bg/map.png") no-repeat;
+  background: url("../img/bg/map.jpg") no-repeat;
   background-size: cover;
-  max-width: 61.1111111111rem;
-  max-height: 36.2222222222rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 0.0555555556rem;
+  height: 0.0555555556rem;
+  margin: -0.0555555556rem;
+}
+
+.socials {
+  margin-right: 3.7777777778rem;
+}
+.socials:last-child {
+  margin-right: 0;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.3888888889rem;
+}
+.socials__item:hover {
+  fill: #292929;
+}
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__link {
+  display: block;
+  background: center center no-repeat;
 }

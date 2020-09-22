@@ -4,6 +4,7 @@
     @include phones {
         display: flex;
         text-align: left;
+        align-items: center;
     }
 
 }
@@ -39,6 +40,11 @@
         margin-bottom: rem(14px);
     }
 
+    @include phones-small {
+        margin-bottom: rem(5px);
+        font-size: rem(20px);
+    }
+
 }
 
 .benefit__image {
@@ -54,5 +60,9 @@
 .benefit__desc {
     @include phones {
         max-width: rem(290px);
+    }
+
+    @include phones-small {
+        font-size: rem(14px);
     }
 }

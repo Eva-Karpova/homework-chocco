@@ -18,11 +18,17 @@
     &.section__title--green {
         color: #365a49;
     }
+
+    @include phones-small {
+        margin-bottom: 0;
+        font-size: 28px;
+    }
 }
 
 .order-section {
     background: url("../img/bg/order.png") no-repeat;
     background-size: cover;
+    
 
 }
 

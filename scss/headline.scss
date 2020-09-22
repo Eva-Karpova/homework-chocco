@@ -2,11 +2,20 @@
     text-align: center;
     margin-bottom: rem(50px);
 
+    @include phones-small {
+        margin-bottom: rem(10px) ;
+    }
+
 }
 
 
 .headline__title {
     margin-bottom: rem(20px);
+
+    @include phones-small {
+        font-size: rem(28px);
+        margin-bottom: rem(5px);
+    }
     
     
 }
@@ -17,4 +26,10 @@
     @include phones {
         padding: 0 2%;
     }
+
+    @include phones-small {
+        padding: 0 2%;
+        font-size: rem(14px);
+    }
 }
+

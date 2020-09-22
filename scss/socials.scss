@@ -1,0 +1,32 @@
+.socials {
+    margin-right: rem(68px);
+
+    &:last-child {
+        margin-right: 0;
+
+    }   
+}
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: rem(7px);
+
+    &:hover {
+        fill: #292929;
+    }
+
+    &:last-child {
+        margin-right: 0;
+
+       
+    }
+
+}
+
+.socials__link {
+    display: block;
+    background: center center no-repeat;
+
+}
+

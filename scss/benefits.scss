@@ -43,6 +43,10 @@
         }
     }
 
+    @include phones-small {
+        margin-bottom: rem(10px);
+    }
+
 }
 
 

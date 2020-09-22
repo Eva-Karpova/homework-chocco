@@ -55,6 +55,10 @@
         border-color: #dee2bd;
         outline: none;
     }
+
+    @include phones-small {
+        padding: 0 rem(5px);
+    }
 }
 
 .form__controls {

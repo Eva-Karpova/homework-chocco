@@ -58,6 +58,13 @@
             height: rem(330px);
             background: url("/img/decor/hero-decor.png") center center / contain no-repeat;
             margin-bottom: rem(17px);
+
+            @include phones-small {
+                width: rem(240px);
+                height: rem(250px);
+            }
+            
+        
         }
 
     }
@@ -89,6 +96,12 @@
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: rem(15px);
+
+    @include phones-small {
+        font-size: rem(28px);
+        padding: 0 6%;
+
+    }
 }
 
 .hero__title-desc {
@@ -102,5 +115,11 @@
 
     @include phones {
         padding: 0 16%;
+    }
+
+    @include phones-small {
+        font-size: rem(16px);
+        padding: 0 11%;
+        margin-bottom: rem(10px);
     }
 }
